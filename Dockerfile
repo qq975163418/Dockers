@@ -1,5 +1,5 @@
 FROM chenhw2/alpine:base
-MAINTAINER CHENHW2 <https://github.com/chenhw2>
+LABEL MAINTAINER CHENHW2 <https://github.com/chenhw2>
 
 ARG VER=2.5
 ARG GOST_URL=https://github.com/ginuerzh/gost/releases/download/v${VER}/gost_${VER}_linux_amd64.tar.gz
